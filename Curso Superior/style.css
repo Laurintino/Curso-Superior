@@ -151,15 +151,19 @@ img{
     width: 100%;
     padding-left: 175px;
     margin-top: 300px;
-    background-color: #ffc676;
+    background-color: #ebe3d8;
+}
+.area-atuacao h2{
+    font-size: 18px;
+    color:rgb(55, 55, 55);
 }
 
 .area-atuacao p{
     width: 720px;
     padding-top: 10px;
-    padding-bottom: 400px;
+    padding-bottom: 20px;
     margin-top: 20px;
-    background-color: #ffc676;
+    background-color: #ebe3d8;
 }
 
 .area-atuacao h2 {
@@ -167,5 +171,21 @@ img{
     width: 750px;
     padding-top: 55px;
     margin-top: 300px;
-    background-color: #ffc676;
+    background-color: #ebe3d8;
+}
+
+.area-atuacao li {
+    list-style: none;
+    padding: 5px;
+    max-width: 725px;
+}
+
+.rodape {
+    background-color: white;
+    color: rgb(48, 48, 48);
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    padding: 10px;
 }

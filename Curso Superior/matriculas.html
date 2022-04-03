@@ -1,12 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style_matricula.css">
+    <title>Curso de Design | Faculdade</title>
 </head>
 <body>
+    <main>
+    <header class="cabecalho">
+        <div class="cabecalho-conteudo">
+            
+            <div class="logo-cabecalho">
+                <img src="logo.png" alt="Logo do Curso">
+            </div>
+
+            <nav class="nav-1">
+                <ul>
+                    <li class="inicio"><a href="index.html">Inicio</a></li>
+                    <li class="matricula"><a href="matriculas.html">Matrículas</a></li>
+                    <li class="contato"><a href="index.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="texto-form">
+        <h1>MATRÍCULA NO VESTIBULAR</h1>
+        <h4>A maneira mais rápida de se inscrever!</h4>
+        <p>Fez ENEM nos últimos dez anos? Você pode utilizar sua nota e se inscrever sem vestibular!</p>
+        <h2>DADOS PESSOAIS</h2>
+    </div>
+
     
+    <div class="fomulario">
+        <form class="formulario">
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="nome"><strong>Nome</strong></label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+
+                <div class="campo">
+                    <label for="sobrenome"><strong>Sobrenome</strong></label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>
+            </fieldset> 
+
+            <div class="campo">
+                <label for="email"><strong>Email</strong></label>
+                <input type="email" name="email" id="email" required>
+            </div>
+
+            <fieldset class="check-grupo">
+                <div id="check">
+                    <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
+                    <label for="tecnologia2"> Concordo em receber o status de minha inscrição no vestibular via Whatsapp.
+                    </label><br><br>
+                    <input id="check1"type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS">
+                    <label for="tecnologia2"> Concordo em receber contato via SMS e e-mail.</label>
+                </div>
+            </fieldset>
+
+            <button class="botao" type="submit" onsubmit="">Concluído</button>            
+        </form>
+    </div>
+    <div class="rodape">
+        <footer>
+            <p>Rodrigo Laurintino e Leonardo Oliveira © Todos os Direitos Reservados</p>
+        </footer>
+    </div>
+    </main>
 </body>
 </html>
